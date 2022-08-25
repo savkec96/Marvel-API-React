@@ -1,0 +1,76 @@
+.marvel_navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.6rem 0;
+  .marvel_logo {
+    width: 6rem;
+  }
+  .marvel_search {
+    position: relative;
+    .marvel_search_input {
+      font-family: 'Bebas Neue', cursive;
+      font-size: 1.4rem;
+      background-color: transparent;
+      color: #e03131;
+      border: 2px solid #e03131;
+      border-radius: 4rem;
+      padding: 1.2rem 1.6rem;
+      width: 30rem;
+      &:focus {
+        color: #e03131;
+      }
+      &::placeholder {
+        color: #fff;
+      }
+    }
+    .marvel_search_icon {
+      position: absolute;
+      width: 2.4rem;
+      height: 2.4rem;
+      right: 4%;
+      top: 50%;
+      transform: translateY(-50%);
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+  .marvel_favourites_icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    color: #fff;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+@media (max-width: 31.25em) {
+  .marvel_navbar {
+    .marvel_search {
+      .marvel_search_input {
+        width: 24rem;
+        padding: 1rem 1.4rem;
+      }
+    }
+  }
+}
+@media (max-width: 28.125em) {
+  .marvel_navbar {
+    .marvel_logo {
+      width: 5rem;
+    }
+    .marvel_search {
+      .marvel_search_input {
+        font-size: 1.2rem;
+        width: 20rem;
+      }
+    }
+    .marvel_favourites_icon {
+      width: 2.2rem;
+      height: 2.2rem;
+    }
+  }
+}

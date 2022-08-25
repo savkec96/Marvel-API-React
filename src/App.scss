@@ -1,0 +1,21 @@
+.main_container {
+  width: 80%;
+  margin: 9.6rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2.4rem;
+}
+
+@media (max-width: 50em) {
+  .main_container {
+    width: 90%;
+    margin: 7.8rem auto;
+  }
+}
+@media (max-width: 31.25em) {
+  .main_container {
+    gap: 1.6rem;
+  }
+}
