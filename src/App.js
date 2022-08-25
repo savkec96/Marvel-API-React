@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import md5 from 'md5';
 import Navbar from './components/Navbar';
-import './App.scss';
+import './App.css';
 import Header from './components/Header';
 import Heroes from './components/Heroes';
 import Favourites from './components/Favourites';

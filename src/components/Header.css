@@ -1,0 +1,59 @@
+.marvel_header {
+  position: relative;
+  height: 60vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6)),
+    url('./img/marvel_hero.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.marvel_header .marvel_header_title {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30%;
+  font-size: 5.4rem;
+  color: #fff;
+}
+
+@media (max-width: 68.75em) {
+  .marvel_header .marvel_header_title {
+    width: 40%;
+    font-size: 5rem;
+  }
+}
+@media (max-width: 50em) {
+  .marvel_header .marvel_header_title {
+    font-size: 4.5rem;
+  }
+}
+@media (max-width: 40.625em) {
+  .marvel_header .marvel_header_title {
+    width: 35%;
+    font-size: 4.2rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .marvel_header .marvel_header_title {
+    width: 40%;
+    font-size: 4rem;
+  }
+}
+@media (max-width: 31.25em) {
+  .marvel_header {
+    height: 50vh;
+  }
+  .marvel_header .marvel_header_title {
+    width: 45%;
+    font-size: 3.6rem;
+  }
+}
+@media (max-width: 25em) {
+  .marvel_header {
+    height: 60vh;
+  }
+  .marvel_header .marvel_header_title {
+    width: 50%;
+    font-size: 3.4rem;
+  }
+}

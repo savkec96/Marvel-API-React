@@ -4,7 +4,6 @@ import FavouriteHeroes from './FavouriteHeroes';
 
 function Favourites() {
   const { favourites } = useContext(GlobalContext);
-
   return (
     <>
       {favourites.map((fav, i) => (

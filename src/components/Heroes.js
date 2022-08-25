@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import './Heroes.scss';
+import './Heroes.css';
 import { GlobalContext } from '../context/GlobalState';
 
 function Heroes({ marvel, i }) {

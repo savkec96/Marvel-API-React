@@ -1,0 +1,93 @@
+.marvel_hero {
+  position: relative;
+  width: 22%;
+  background-color: #e03131;
+  transition: all 0.5s cubic-bezier(0.15, 0.6, 0, 1);
+}
+.marvel_hero:hover {
+  transform: scale(1.05, 1.05);
+}
+.marvel_hero .marvel_hero_image {
+  width: 100%;
+  opacity: 0.4;
+}
+.marvel_hero .marvel_hero_name {
+  color: #fff;
+  text-align: center;
+  font-size: 2.4rem;
+}
+.marvel_hero .marvel_add_to_fav {
+  position: absolute;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.6rem;
+  padding: 0.6rem;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  top: 2%;
+  right: 2%;
+}
+.marvel_hero .marvel_add_to_fav:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #e03131;
+  transition: all 0.5s;
+}
+
+@media (max-width: 59.375em) {
+  .marvel_hero {
+    width: 30%;
+  }
+  .marvel_hero .marvel_hero_name {
+    font-size: 1.8rem;
+  }
+  .marvel_hero .marvel_add_to_fav {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 46.875em) {
+  .marvel_hero .marvel_hero_name {
+    font-size: 1.6rem;
+  }
+  .marvel_hero .marvel_add_to_fav {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 40.625em) {
+  .marvel_hero {
+    width: 45%;
+  }
+  .marvel_hero .marvel_hero_name {
+    font-size: 1.7rem;
+  }
+  .marvel_hero .marvel_add_to_fav {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 31.25em) {
+  .marvel_hero {
+    width: 47%;
+  }
+  .marvel_hero .marvel_hero_name {
+    font-size: 1.5rem;
+  }
+  .marvel_hero .marvel_add_to_fav {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 28.125em) {
+  .marvel_hero .marvel_hero_name {
+    font-size: 1.4rem;
+  }
+  .marvel_hero .marvel_add_to_fav {
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 25em) {
+  .marvel_hero .marvel_hero_name {
+    font-size: 1.2rem;
+  }
+  .marvel_hero .marvel_add_to_fav {
+    font-size: 1rem;
+  }
+}

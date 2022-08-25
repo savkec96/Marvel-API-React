@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from './img/marvel_logo.png';
 import { Search, Star } from 'react-ionicons';
-import './Navbar.scss';
+import './Navbar.css';
 
 function Navbar({ search }) {
   const [inputText, setInputText] = useState('');

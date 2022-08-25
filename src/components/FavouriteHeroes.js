@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import './FavouriteHeroes.scss';
+import './FavouriteHeroes.css';
 import { GlobalContext } from '../context/GlobalState';
 
 function FavouriteHeroes({ fav, i }) {

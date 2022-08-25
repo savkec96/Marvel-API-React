@@ -1,0 +1,129 @@
+.fav_hero {
+  position: relative;
+  width: 22%;
+  background-color: #e03131;
+}
+.fav_hero .fav_hero_image {
+  width: 100%;
+  opacity: 0.4;
+}
+.fav_hero .fav_slide {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 100%;
+  background: hsla(0, 74%, 54%, 0.5);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 0.5s ease;
+}
+.fav_hero:hover .fav_slide {
+  cursor: pointer;
+  width: 100%;
+  right: 0;
+}
+.fav_slide .fav_description {
+  margin: 6.4rem 1rem;
+  color: #fff;
+  font-size: 1.4rem;
+}
+.fav_hero .fav_hero_name {
+  color: #fff;
+  text-align: center;
+  font-size: 2.4rem;
+}
+.fav_hero .fav_remove {
+  position: absolute;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.6rem;
+  padding: 0.6rem;
+  background-color: #fff;
+  color: #e03131;
+  border: none;
+  top: 2%;
+  right: 2%;
+}
+.fav_hero .fav_remove:hover {
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+@media (max-width: 75em) {
+  .fav_hero .fav_slide .fav_description {
+    margin: 4.4rem 1rem;
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 59.375em) {
+  .fav_hero {
+    width: 30%;
+  }
+  .fav_hero .fav_slide .fav_description {
+    font-size: 1.4rem;
+  }
+  .fav_hero .fav_hero_name {
+    font-size: 1.8rem;
+  }
+  .fav_hero .fav_remove {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 46.875em) {
+  .fav_hero .fav_slide .fav_description {
+    font-size: 1.2rem;
+  }
+  .fav_hero.fav_hero_name {
+    font-size: 1.6rem;
+  }
+  .fav_hero .fav_remove {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 40.625em) {
+  .fav_hero {
+    width: 45%;
+  }
+  .fav_hero .fav_hero_name {
+    font-size: 1.7rem;
+  }
+  .fav_hero .fav_remove {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 31.25em) {
+  .fav_hero {
+    width: 47%;
+  }
+  .fav_hero .fav_hero_name {
+    font-size: 1.5rem;
+  }
+  .fav_hero .fav_remove {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 28.125em) {
+  .fav_hero.fav_slide .fav_description {
+    font-size: 1.1rem;
+  }
+  .fav_hero .fav_hero_name {
+    font-size: 1.4rem;
+  }
+  .fav_hero .fav_remove {
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 25em) {
+  .fav_hero .fav_slide .fav_description {
+    margin: 3.6rem 0.8rem;
+    font-size: 1rem;
+  }
+  .fav_hero .fav_hero_name {
+    font-size: 1.2rem;
+  }
+  .fav_hero .fav_remove {
+    font-size: 1rem;
+  }
+}
